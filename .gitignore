@@ -1,0 +1,24 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Go build files
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Node.js dependencies
+node_modules/
