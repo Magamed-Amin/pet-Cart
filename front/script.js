@@ -21,12 +21,12 @@ document.getElementById("toLogin").addEventListener("click", function() {
 document.getElementById("loginForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
-    message.textContent = "Здесь будет авторизация через Go Backend";
+    message.textContent = "Go";
 });
 
 // Отправка формы регистрации
 document.getElementById("registerForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
-    message.textContent = "Здесь будет регистрация через Go Backend";
+    message.textContent = "Go";
 });
